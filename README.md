@@ -75,10 +75,14 @@ Backend (FastAPI): http://localhost:8001/docs
 
 🧪 Testing
 The project includes basic testing for the FastAPI endpoints. To run the tests, execute the following:
+
 cd backend
 pytest
 
 👨‍💻 Author
+
 Name: Yotam Hasid
+
 Email: 19yotam@gmail.com
+
 GitHub: YotamHasid
