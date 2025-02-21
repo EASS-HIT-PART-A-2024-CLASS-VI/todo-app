@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8001:8001"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis  # Connects to Redis service by its name
+    networks:
+      - todo_net  # הגדרת רשת עם שירותים אחרים
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    networks:
+      - todo_net  # חבר את הפרונטאנד לאותה רשת
+
+  redis:
+    image: redis:7.4.2
+    ports:
+      - "6379:6379"
+    networks:
+      - todo_net  # חבר את ה-Redis לאותה רשת
+
+networks:
+  todo_net:  # הגדרת הרשת לשירותים כך שהם יוכלו לתקשר אחד עם השני
+    driver: bridge  # סוג הרשת
