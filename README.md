@@ -78,9 +78,6 @@ The project includes basic testing for the FastAPI endpoints. To run the tests, 
 cd backend
 pytest
 
-![image](https://github.com/user-attachments/assets/f3f5241e-9ed4-4211-b19b-dea6f3648767)
-
-
 👨‍💻 Author
 Name: Yotam Hasid
 Email: 19yotam@gmail.com
