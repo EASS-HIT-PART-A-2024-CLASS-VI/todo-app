@@ -11,7 +11,8 @@ A simple To-Do List application built using FastAPI, Redis, and Streamlit. This 
 🗂️ Project Architecture
 
 
-![image](https://github.com/user-attachments/assets/cfb7f75e-40d5-45b5-909d-7343a32c8f3a)
+![image](https://github.com/user-attachments/assets/9918b627-3b59-4195-9136-41c10fb28e88)
+
 
 
 
