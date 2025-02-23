@@ -139,6 +139,10 @@ pytest
 ![image](https://github.com/user-attachments/assets/00197ae9-afef-4d05-93a1-928d6f90ceb0)
 
 
+
+My project video: https://youtu.be/l_GpxKbsQ78
+
+
 👨‍💻 Author
 
 
