@@ -18,7 +18,8 @@ A simple To-Do List application built using FastAPI, Redis, and Streamlit. This 
 
 Arch Diagram: 
 
-![image](https://github.com/user-attachments/assets/2c988533-1127-498b-bf33-22f078e20e46)
+![image](https://github.com/user-attachments/assets/c17b206e-1212-4113-bccb-a1381de99e04)
+
 
 
 
